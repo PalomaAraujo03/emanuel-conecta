@@ -1,75 +1,141 @@
-# Requisitos do Sistema
+# 📋 Requisitos do Sistema
 
-## Requisitos Funcionais
+# Emanuel Conecta
 
-RF01
+## Objetivo
 
-O usuário poderá criar uma conta.
+Este documento descreve os requisitos funcionais e não funcionais do aplicativo Emanuel Conecta.
 
-----------------------
+---
 
-RF02
+# Requisitos Funcionais
 
-O usuário poderá realizar login.
+## RF01 - Cadastro de usuário
 
-----------------------
+O sistema deverá permitir que um visitante realize seu cadastro.
 
-RF03
+---
 
-O usuário poderá recuperar sua senha.
+## RF02 - Login
 
-----------------------
+O sistema deverá permitir que o usuário realize login utilizando e-mail e senha.
 
-RF04
+---
 
-O administrador poderá cadastrar eventos.
+## RF03 - Recuperação de senha
 
-----------------------
+O sistema deverá permitir que o usuário redefina sua senha por e-mail.
 
-RF05
+---
 
-O usuário poderá visualizar eventos.
+## RF04 - Perfil do usuário
 
-----------------------
+O usuário poderá visualizar e editar suas informações pessoais.
 
-RF06
+---
+
+## RF05 - Avisos
 
 O administrador poderá publicar avisos.
 
-----------------------
+Os usuários poderão visualizar todos os avisos publicados.
 
-RF07
+---
 
-O usuário poderá visualizar avisos.
+## RF06 - Eventos
 
-----------------------
+O administrador poderá cadastrar eventos.
 
-RF08
+Os usuários poderão visualizar os eventos da igreja.
+
+---
+
+## RF07 - Pedidos de oração
 
 O usuário poderá enviar pedidos de oração.
 
-----------------------
+O administrador poderá aprovar ou ocultar pedidos.
 
-RF09
+---
 
-O administrador poderá aprovar pedidos de oração.
+## RF08 - Aniversariantes
 
-----------------------
+O sistema deverá exibir os aniversariantes do mês.
 
-RF10
+---
 
-O sistema exibirá os aniversariantes do mês.
+## RF09 - Agenda semanal
 
-----------------------
+O sistema deverá exibir a programação semanal da igreja.
 
-RF11
+---
 
-O usuário poderá acessar o grupo dos jovens pelo WhatsApp.
+## RF10 - Grupo dos Jovens
 
-----------------------
+O usuário poderá entrar na comunidade do WhatsApp através do aplicativo.
 
-RF12
+---
+
+## RF11 - Check-in
 
 O membro poderá realizar check-in nos cultos.
 
-(Versão futura)
+(Funcionalidade prevista para uma versão futura.)
+
+---
+
+## RF12 - Notificações
+
+O sistema enviará notificações sobre novos avisos e eventos.
+
+(Funcionalidade prevista para uma versão futura.)
+
+---
+
+# Requisitos Não Funcionais
+
+## RNF01
+
+O aplicativo deverá funcionar em dispositivos Android.
+
+---
+
+## RNF02
+
+A interface deverá ser simples e intuitiva.
+
+---
+
+## RNF03
+
+O aplicativo deverá possuir botões grandes para facilitar o uso por idosos.
+
+---
+
+## RNF04
+
+O tempo de carregamento deverá ser inferior a 3 segundos.
+
+---
+
+## RNF05
+
+As senhas deverão ser armazenadas de forma segura utilizando criptografia.
+
+---
+
+## RNF06
+
+O sistema deverá possuir autenticação por login.
+
+---
+
+## RNF07
+
+O aplicativo deverá apresentar layout responsivo.
+
+---
+
+## RNF08
+
+O sistema deverá permitir futuras expansões sem necessidade de grandes alterações na arquitetura.
