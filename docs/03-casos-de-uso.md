@@ -1,77 +1,65 @@
-# 👥 Casos de Uso - Emanuel Conecta
+# 👥 Casos de Uso
+
+## Projeto
+
+**Emanuel Conecta**
+
+---
+
+# UC-01 – Cadastro de Usuário
 
 ## Objetivo
 
-Este documento descreve como cada tipo de usuário interage com o aplicativo Emanuel Conecta.
+Permitir que uma pessoa crie uma conta para acessar o aplicativo da Igreja Batista Emanuel.
 
----
-
-# Tipos de Usuários
+## Atores
 
 - Visitante
-- Membro
-- Diácono
-- Pastor
-- Administrador
 
----
+## Pré-condições
 
-# Visitante
+- O usuário não pode possuir um cadastro com o mesmo e-mail.
+- O usuário deve possuir um endereço de e-mail válido.
 
-### Pode:
+## Fluxo Principal
 
-- Criar uma conta
-- Fazer login
-- Recuperar senha
-- Visualizar informações públicas da igreja
-- Visualizar eventos
-- Enviar pedido de oração
-- Acessar a localização da igreja
-- Entrar em contato com a igreja
+1. O visitante acessa a tela de cadastro.
+2. O sistema solicita:
+   - Nome completo;
+   - E-mail;
+   - Telefone;
+   - Data de nascimento;
+   - Senha;
+   - Confirmar senha.
+3. O visitante preenche os dados.
+4. O sistema valida as informações.
+5. O sistema cria a conta com o perfil **Visitante**.
+6. O sistema informa que o cadastro foi realizado com sucesso.
+7. O administrador poderá alterar posteriormente o perfil para Membro, Diácono ou Administrador.
 
----
+## Fluxos Alternativos
 
-# Membro
+### FA-01 – E-mail já cadastrado
 
-Possui todas as permissões do Visitante e também pode:
+1. O sistema identifica que o e-mail já existe.
+2. Exibe uma mensagem informando que o usuário já possui cadastro.
 
-- Visualizar aniversariantes
-- Visualizar avisos internos
-- Visualizar agenda semanal
-- Participar dos ministérios
-- Atualizar seu perfil
+### FA-02 – Senhas diferentes
 
----
+1. O sistema identifica que as senhas não coincidem.
+2. Solicita que o usuário corrija os campos.
 
-# Diácono
+### FA-03 – Campos obrigatórios não preenchidos
 
-Possui todas as permissões de Membro e também pode:
+1. O sistema informa quais campos precisam ser preenchidos.
 
-- Auxiliar na gestão de eventos
-- Visualizar pedidos de oração para acompanhamento
+## Pós-condições
 
----
+- O usuário passa a existir no banco de dados.
+- Seu perfil inicial será **Visitante**.
 
-# Pastor
+## Regras de Negócio
 
-Possui todas as permissões de Diácono e também pode:
-
-- Publicar avisos
-- Criar eventos
-- Aprovar pedidos de oração
-- Gerenciar conteúdos do aplicativo
-
----
-
-# Administrador
-
-Possui acesso total ao sistema.
-
-Pode:
-
-- Gerenciar usuários
-- Alterar permissões
-- Editar eventos
-- Publicar avisos
-- Gerenciar aniversariantes
-- Configurar o sistema
+- RN01 – Todo novo usuário será cadastrado como **Visitante**.
+- RN02 – Apenas um Administrador poderá alterar o perfil do usuário.
+- RN03 – O e-mail deverá ser único no sistema.
