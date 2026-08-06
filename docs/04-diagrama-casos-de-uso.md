@@ -1,13 +1,16 @@
-# Diagrama de Casos de Uso
+# 📘 Diagrama de Casos de Uso
 
 ## Objetivo
 
-Representar graficamente os atores e os principais casos de uso do sistema Emanuel Conecta.
+Representar graficamente os atores e as funcionalidades do sistema Emanuel Conecta.
 
-## Diagrama
+## Ferramenta
 
-(imagem)
+Draw.io (diagrams.net)
 
-## Descrição
+## Diagramas
 
-Explicação do diagrama.
+- Autenticação
+- Comunicação
+- Comunidade
+- Administração
