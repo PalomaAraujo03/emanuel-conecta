@@ -270,5 +270,3 @@ Facilidade de evolução do sistema
 
 A arquitetura poderá ser evoluída conforme novas necessidades da Igreja Batista Emanuel forem identificadas.
 
-
-**`Adiciona documentação da arquitetura do sistema`**
