@@ -10,6 +10,8 @@ Draw.io (diagrams.net)
 
 ## Diagramas
 
+![Diagrama de Casos de Uso - Emanuel Conecta](./uml-casos-de-uso.png)
+
 - Autenticação
 - Comunicação
 - Comunidade
