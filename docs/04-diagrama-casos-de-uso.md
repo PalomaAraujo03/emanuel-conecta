@@ -1,4 +1,4 @@
-# 📘 Diagrama de Casos de Uso
+## 📘 Diagrama de Casos de Uso
 
 ## Objetivo
 
@@ -8,11 +8,14 @@ Representar graficamente os atores e as funcionalidades do sistema Emanuel Conec
 
 Draw.io (diagrams.net)
 
-## Diagramas
+## Diagrama
 
 ![Diagrama de Casos de Uso - Emanuel Conecta](./uml-casos-de-uso.png)
 
-- Autenticação
-- Comunicação
-- Comunidade
-- Administração
+## Atores
+
+- **Visitante**
+- **Membro**
+- **Pastor**
+- **Diácono**
+- **Administrador**
