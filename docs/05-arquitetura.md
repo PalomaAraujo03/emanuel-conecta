@@ -272,8 +272,3 @@ A arquitetura poderá ser evoluída conforme novas necessidades da Igreja Batist
 
 
 **`Adiciona documentação da arquitetura do sistema`**
-
-
-
-Versionamento	Git + GitHub
-Modelagem	UML / Draw.io
